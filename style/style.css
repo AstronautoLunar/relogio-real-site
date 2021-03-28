@@ -1,0 +1,47 @@
+body {
+    background-color: #212121;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 340px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 2px 2px white;
+    border-radius: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2 {
+    color: white;
+}
+
+div, h2 {
+    transition: all 0.2s;
+}
+
+div:hover {
+    width: 355px;
+    height: 355px;
+    border-radius: 355px;
+    box-shadow: 0 0 20px 2px white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2:hover {
+    text-decoration: underline;
+}
